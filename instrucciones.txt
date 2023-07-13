@@ -1,0 +1,8 @@
+git clone <url-repo>
+
+git init
+git status - estado actual
+git add <folder o file> - para agregar archivos a un commit
+git commit -m "<mensaje>" - para guardar los cambios actuales
+git log - ver commits
+git log -p - ver commits y cambios codigo
