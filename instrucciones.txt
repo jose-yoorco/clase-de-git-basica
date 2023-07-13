@@ -6,3 +6,16 @@ git add <folder o file> - para agregar archivos a un commit
 git commit -m "<mensaje>" - para guardar los cambios actuales
 git log - ver commits
 git log -p - ver commits y cambios codigo
+
+ramas
+git checkout -b <nombre-de-rama> - crear rama
+git checkout <nombre-de-rama> - cambiar de rama
+git diff <nombre-de-rama> - ver diferencias entre ramas
+git merge <nombre-de-rama> - unir ramas
+git diff - ver cambios en el codigo
+
+Para agregar un repo existente a uno remoto:
+
+git remote add origin <url-repo> -  agregar repo remoto
+git branch -M main - cambiar nombre de rama
+git push -u origin main - subir cambios a repo remoto
